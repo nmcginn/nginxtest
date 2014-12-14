@@ -1,0 +1,9 @@
+{
+  "name":"image-converter",
+  "description":"filesystem watching png converter",
+  "version":"1.0.0",
+  "private":true,
+  "dependencies": {
+    "express":"4.1.x"
+  }
+}
