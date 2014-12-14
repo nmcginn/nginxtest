@@ -7,6 +7,7 @@ app.get('/api', function(req, res) {
   res.send(200);
 });
 
-var server = app.listen(2370, function() {
+var port = process.argv[process.argv.length-1]; // last argument should be port
+var server = app.listen(port, function() {
   console.log('Listening on port %d', server.address().port);
 });
